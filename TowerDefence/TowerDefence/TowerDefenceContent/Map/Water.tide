@@ -1,0 +1,252 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Map Id="Untitled">
+  <Description><![CDATA[]]></Description>
+  <TileSheets>
+    <TileSheet Id="untitled tile sheet">
+      <Description><![CDATA[]]></Description>
+      <ImageSource><![CDATA[Tileset.png]]></ImageSource>
+      <Alignment SheetSize="10 x 2" TileSize="84 x 84" Margin="0 x 0" Spacing="0 x 0" />
+      <Properties />
+    </TileSheet>
+    <TileSheet Id="water">
+      <Description><![CDATA[]]></Description>
+      <ImageSource><![CDATA[Waterp.png]]></ImageSource>
+      <Alignment SheetSize="1 x 1" TileSize="84 x 84" Margin="0 x 0" Spacing="0 x 0" />
+      <Properties />
+    </TileSheet>
+    <TileSheet Id="waterlay">
+      <Description><![CDATA[]]></Description>
+      <ImageSource><![CDATA[Tileset.png]]></ImageSource>
+      <Alignment SheetSize="10 x 2" TileSize="84 x 84" Margin="0 x 83" Spacing="0 x 0" />
+      <Properties />
+    </TileSheet>
+  </TileSheets>
+  <Layers>
+    <Layer Id="untitled layer" Visible="True">
+      <Description><![CDATA[]]></Description>
+      <Dimensions LayerSize="12 x 9" TileSize="84 x 84" />
+      <TileArray>
+        <Row>
+          <Null Count="2" />
+          <TileSheet Ref="water" />
+          <Static Index="0" BlendMode="Alpha" />
+          <Null Count="6" />
+          <Static Index="0" BlendMode="Alpha" />
+          <Null Count="2" />
+        </Row>
+        <Row>
+          <Null Count="2" />
+          <Static Index="0" BlendMode="Alpha" />
+          <Null Count="6" />
+          <Static Index="0" BlendMode="Alpha" />
+          <Null Count="2" />
+        </Row>
+        <Row>
+          <Static Index="0" BlendMode="Alpha" />
+          <Static Index="0" BlendMode="Alpha" />
+          <Static Index="0" BlendMode="Alpha" />
+          <Static Index="0" BlendMode="Alpha" />
+          <Null Count="5" />
+          <Static Index="0" BlendMode="Alpha" />
+          <Null Count="2" />
+        </Row>
+        <Row>
+          <Null Count="2" />
+          <Static Index="0" BlendMode="Alpha" />
+          <Static Index="0" BlendMode="Alpha" />
+          <Null Count="2" />
+          <Static Index="0" BlendMode="Alpha" />
+          <Static Index="0" BlendMode="Alpha" />
+          <Static Index="0" BlendMode="Alpha" />
+          <Static Index="0" BlendMode="Alpha" />
+          <Null Count="2" />
+        </Row>
+        <Row>
+          <Null Count="2" />
+          <Static Index="0" BlendMode="Alpha" />
+          <Static Index="0" BlendMode="Alpha" />
+          <Null Count="2" />
+          <Static Index="0" BlendMode="Alpha" />
+          <Null Count="5" />
+        </Row>
+        <Row>
+          <Null Count="2" />
+          <Static Index="0" BlendMode="Alpha" />
+          <Null Count="3" />
+          <Static Index="0" BlendMode="Alpha" />
+          <Null Count="5" />
+        </Row>
+        <Row>
+          <Null Count="2" />
+          <Static Index="0" BlendMode="Alpha" />
+          <Null Count="3" />
+          <Static Index="0" BlendMode="Alpha" />
+          <Null Count="5" />
+        </Row>
+        <Row>
+          <Static Index="0" BlendMode="Alpha" />
+          <Static Index="0" BlendMode="Alpha" />
+          <Static Index="0" BlendMode="Alpha" />
+          <Null Count="3" />
+          <Static Index="0" BlendMode="Alpha" />
+          <Null Count="5" />
+        </Row>
+        <Row>
+          <Null Count="12" />
+        </Row>
+      </TileArray>
+      <Properties />
+    </Layer>
+    <Layer Id="layer" Visible="True">
+      <Description><![CDATA[]]></Description>
+      <Dimensions LayerSize="12 x 9" TileSize="84 x 84" />
+      <TileArray>
+        <Row>
+          <TileSheet Ref="untitled tile sheet" />
+          <Static Index="9" BlendMode="Alpha" />
+          <Static Index="9" BlendMode="Alpha" />
+          <TileSheet Ref="waterlay" />
+          <Static Index="18" BlendMode="Alpha" />
+          <TileSheet Ref="untitled tile sheet" />
+          <Static Index="9" BlendMode="Alpha" />
+          <Static Index="9" BlendMode="Alpha" />
+          <Static Index="9" BlendMode="Alpha" />
+          <Static Index="9" BlendMode="Alpha" />
+          <Static Index="9" BlendMode="Alpha" />
+          <Static Index="9" BlendMode="Alpha" />
+          <Static Index="5" BlendMode="Alpha" />
+          <Static Index="9" BlendMode="Alpha" />
+          <Static Index="9" BlendMode="Alpha" />
+        </Row>
+        <Row>
+          <Static Index="9" BlendMode="Alpha" />
+          <Static Index="9" BlendMode="Alpha" />
+          <TileSheet Ref="waterlay" />
+          <Static Index="18" BlendMode="Alpha" />
+          <TileSheet Ref="untitled tile sheet" />
+          <Static Index="9" BlendMode="Alpha" />
+          <Static Index="9" BlendMode="Alpha" />
+          <Static Index="9" BlendMode="Alpha" />
+          <Static Index="9" BlendMode="Alpha" />
+          <Static Index="9" BlendMode="Alpha" />
+          <Static Index="9" BlendMode="Alpha" />
+          <Static Index="5" BlendMode="Alpha" />
+          <Static Index="9" BlendMode="Alpha" />
+          <Static Index="9" BlendMode="Alpha" />
+        </Row>
+        <Row>
+          <Static Index="9" BlendMode="Alpha" />
+          <Static Index="9" BlendMode="Alpha" />
+          <TileSheet Ref="waterlay" />
+          <Static Index="14" BlendMode="Alpha" />
+          <TileSheet Ref="untitled tile sheet" />
+          <Static Index="11" BlendMode="Alpha" />
+          <Static Index="9" BlendMode="Alpha" />
+          <Static Index="9" BlendMode="Alpha" />
+          <Static Index="9" BlendMode="Alpha" />
+          <Static Index="9" BlendMode="Alpha" />
+          <Static Index="9" BlendMode="Alpha" />
+          <Static Index="5" BlendMode="Alpha" />
+          <Static Index="9" BlendMode="Alpha" />
+          <Static Index="9" BlendMode="Alpha" />
+        </Row>
+        <Row>
+          <Static Index="9" BlendMode="Alpha" />
+          <Static Index="9" BlendMode="Alpha" />
+          <Static Index="9" BlendMode="Alpha" />
+          <TileSheet Ref="waterlay" />
+          <Static Index="18" BlendMode="Alpha" />
+          <TileSheet Ref="untitled tile sheet" />
+          <Static Index="9" BlendMode="Alpha" />
+          <Static Index="9" BlendMode="Alpha" />
+          <Static Index="6" BlendMode="Alpha" />
+          <Static Index="6" BlendMode="Alpha" />
+          <Static Index="5" BlendMode="Alpha" />
+          <Static Index="5" BlendMode="Alpha" />
+          <Static Index="9" BlendMode="Alpha" />
+          <Static Index="9" BlendMode="Alpha" />
+        </Row>
+        <Row>
+          <Static Index="9" BlendMode="Alpha" />
+          <Static Index="9" BlendMode="Alpha" />
+          <Static Index="14" BlendMode="Alpha" />
+          <TileSheet Ref="waterlay" />
+          <Static Index="11" BlendMode="Alpha" />
+          <TileSheet Ref="untitled tile sheet" />
+          <Static Index="9" BlendMode="Alpha" />
+          <Static Index="9" BlendMode="Alpha" />
+          <Static Index="6" BlendMode="Alpha" />
+          <Static Index="9" BlendMode="Alpha" />
+          <Static Index="9" BlendMode="Alpha" />
+          <Static Index="9" BlendMode="Alpha" />
+          <Static Index="9" BlendMode="Alpha" />
+          <Static Index="9" BlendMode="Alpha" />
+        </Row>
+        <Row>
+          <Static Index="9" BlendMode="Alpha" />
+          <Static Index="9" BlendMode="Alpha" />
+          <TileSheet Ref="waterlay" />
+          <Static Index="18" BlendMode="Alpha" />
+          <TileSheet Ref="untitled tile sheet" />
+          <Static Index="9" BlendMode="Alpha" />
+          <Static Index="9" BlendMode="Alpha" />
+          <Static Index="9" BlendMode="Alpha" />
+          <Static Index="6" BlendMode="Alpha" />
+          <Static Index="9" BlendMode="Alpha" />
+          <Static Index="9" BlendMode="Alpha" />
+          <Static Index="9" BlendMode="Alpha" />
+          <Static Index="9" BlendMode="Alpha" />
+          <Static Index="9" BlendMode="Alpha" />
+        </Row>
+        <Row>
+          <Static Index="9" BlendMode="Alpha" />
+          <Static Index="9" BlendMode="Alpha" />
+          <TileSheet Ref="waterlay" />
+          <Static Index="18" BlendMode="Alpha" />
+          <TileSheet Ref="untitled tile sheet" />
+          <Static Index="9" BlendMode="Alpha" />
+          <Static Index="9" BlendMode="Alpha" />
+          <Static Index="9" BlendMode="Alpha" />
+          <Static Index="6" BlendMode="Alpha" />
+          <Static Index="9" BlendMode="Alpha" />
+          <Static Index="9" BlendMode="Alpha" />
+          <Static Index="9" BlendMode="Alpha" />
+          <Static Index="9" BlendMode="Alpha" />
+          <Static Index="9" BlendMode="Alpha" />
+        </Row>
+        <Row>
+          <Static Index="19" BlendMode="Alpha" />
+          <Static Index="19" BlendMode="Alpha" />
+          <TileSheet Ref="waterlay" />
+          <Static Index="11" BlendMode="Alpha" />
+          <TileSheet Ref="untitled tile sheet" />
+          <Static Index="9" BlendMode="Alpha" />
+          <Static Index="9" BlendMode="Alpha" />
+          <Static Index="9" BlendMode="Alpha" />
+          <Static Index="6" BlendMode="Alpha" />
+          <Static Index="9" BlendMode="Alpha" />
+          <Static Index="9" BlendMode="Alpha" />
+          <Static Index="9" BlendMode="Alpha" />
+          <Static Index="9" BlendMode="Alpha" />
+          <Static Index="9" BlendMode="Alpha" />
+        </Row>
+        <Row>
+          <Static Index="9" BlendMode="Alpha" />
+          <Static Index="9" BlendMode="Alpha" />
+          <Static Index="9" BlendMode="Alpha" />
+          <Static Index="9" BlendMode="Alpha" />
+          <Static Index="9" BlendMode="Alpha" />
+          <Static Index="9" BlendMode="Alpha" />
+          <Static Index="9" BlendMode="Alpha" />
+          <Static Index="9" BlendMode="Alpha" />
+          <Static Index="9" BlendMode="Alpha" />
+          <Static Index="9" BlendMode="Alpha" />
+          <Static Index="9" BlendMode="Alpha" />
+          <Static Index="9" BlendMode="Alpha" />
+        </Row>
+      </TileArray>
+      <Properties />
+    </Layer>
+  </Layers>
+  <Properties />
+</Map>
